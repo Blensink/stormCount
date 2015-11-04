@@ -2,10 +2,6 @@
 
 ### A quick and dirty app to to make playing solitaire ( read UR Storm ) a little easier ###
 
-* Current Version: 1
+Now with more legacy!
 
-### Potential Features to Add ###
-
-* Life Counter
-* Enemy Life Counter
-* ????
+Note that I'm not actually allowed to use the WOTC images for mana symbols so they are absent from the repository until I get around to drawing some of my own.
