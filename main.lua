@@ -3,7 +3,6 @@
 -- Initial placements and start values.                                       --
 --                                                                            --
 --------------------------------------------------------------------------------
-
 local stormCount = 0
 local blueCount = 0
 local blackCount = 0
@@ -41,57 +40,49 @@ background:setFillColor( unpack( { 1,1,1 } ) )
 --------------------------------------------------------------------------------
 local stormTextOptions = 
 {
-    --parent = textGroup,
     text = stormCount,     
     x = stormX + textOffset,
     y = stormY,
     font = native.systemFontBold,   
     fontSize = 24,
-    align = "right"  --new alignment parameter
+    align = "right"
 }
-
 local stormText = display.newText( stormTextOptions )
 stormText:setFillColor( 1, 0, 0 )
 
 local blueTextOptions = 
 {
-    --parent = textGroup,
     text = blueCount,     
     x = blueX + textOffset,
     y = blueY,
     font = native.systemFontBold,   
     fontSize = 24,
-    align = "right"  --new alignment parameter
+    align = "right"
 }
-
 local blueText = display.newText( blueTextOptions )
 blueText:setFillColor( 0, 0, 1 )
 
 local blackTextOptions = 
 {
-    --parent = textGroup,
     text = blackCount,     
     x = blackX + textOffset,
     y = blackY,
     font = native.systemFontBold,   
     fontSize = 24,
-    align = "right"  --new alignment parameter
+    align = "right"
 }
-
 local blackText = display.newText( blackTextOptions )
 blackText:setFillColor( 0, 0, 0 )
 
 local redTextOptions = 
 {
-    --parent = textGroup,
     text = redCount,     
     x = redX + textOffset,
     y = redY,
     font = native.systemFontBold,   
     fontSize = 24,
-    align = "right"  --new alignment parameter
+    align = "right"
 }
-
 local redText = display.newText( redTextOptions )
 redText:setFillColor( 1, 0, 0 )
 
